@@ -1,0 +1,183 @@
+{
+  "fontColor": "#000000",
+  "searchLayers": [
+    {
+      "url": "https://services9.arcgis.com/H90bf29etCdmCWvk/arcgis/rest/services/REP_Data/FeatureServer/15",
+      "geometryType": "esriGeometryPoint",
+      "id": "REP_Data_5581",
+      "layerId": "15",
+      "baseURL": "https://services9.arcgis.com/H90bf29etCdmCWvk/arcgis/rest/services/REP_Data/FeatureServer/",
+      "isMapServer": false,
+      "title": "REP_Data - Land_Fill_Point",
+      "visibility": true,
+      "popupInfo": {
+        "title": "Land_Fill_Point: {Name}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Name",
+            "label": "Name",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Type",
+            "label": "Type",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": []
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": false
+  },
+  "defaultBufferDistance": 1,
+  "maxBufferDistance": 5,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": true,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Miles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": false,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0,
+      "type": "esriPMS",
+      "url": "https://static.arcgis.com/images/Symbols/State-Government/Trash-Dumpster.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": 1,
+  "searchSourceSettings": {
+    "allPlaceholder": "Nearest landfill",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "layerId": "REP_Data_5581",
+        "url": "https://services9.arcgis.com/H90bf29etCdmCWvk/arcgis/rest/services/REP_Data/FeatureServer/15",
+        "name": "Land_Fill_Point",
+        "placeholder": "",
+        "searchFields": [],
+        "displayField": "Name",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      }
+    ]
+  },
+  "attributeSymbology": {},
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "filters": []
+  }
+}

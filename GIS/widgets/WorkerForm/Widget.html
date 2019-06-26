@@ -1,0 +1,70 @@
+<div>
+    <div class="workerInputs">
+        <label>Shift:</label>
+        <input type="radio" name="workShift" value="Morning">Morning
+        <input type="radio" name="workShift" value="Evening">Evening
+        <input type="radio" name="workShift" value="Night">Night<br />
+    </div>
+
+    <input id="worker_driverName" type="text" placeholder="Driver name" class="workerInputs" /><br />
+
+    <input id="worker_driverAge" type="text" placeholder="Driver Age" class="workerInputs" /><br />
+
+    <input id="worker_assistantName" type="text" placeholder="Assistant name" class="workerInputs" /><br />
+
+    <input id="worker_assistantAge" type="text" placeholder="Assistant Age" class="workerInputs" /><br />
+
+    <input id="worker_driverEduLev" type="text" placeholder="Driver Education Level" class="workerInputs" /><br />
+
+    <input id="worker_assistantEduLev" type="text" placeholder="Assistant Education Level" class="workerInputs" /><br />
+
+    <input id="worker_driverSickness" type="text" placeholder="Driver Sickness" class="workerInputs" /><br />
+
+    <input id="worker_assistantSickness" type="text" placeholder="Assistant Sickness" class="workerInputs" /><br />
+
+    <input id="worker_carType" type="text" placeholder="Car type" class="workerInputs" /><br />
+
+    <input id="worker_carModel" type="text" placeholder="Car model" class="workerInputs" /><br />
+
+    <div class="workerInputs">
+        <label>Car Fuel type:</label>
+        <input type="radio" name="fuelType" value="gas">Gas
+        <input type="radio" name="fuelType" value="diesel">Diesel
+        <input type="radio" name="fuelType" value="bensen">Bensen<br />
+    </div>
+
+    <input id="worker_carPlateNumber" type="text" placeholder="Car plate number" class="workerInputs" /><br />
+
+    <input id="worker_carEmptyWeight" type="number" placeholder="Car empty weight" class="workerInputs" /><br />
+
+    <input id="worker_carLoadedWieght" type="number" placeholder="Loaded weight in tonns" class="workerInputs" /><br />
+
+    <div class="workerInputs">
+        <label>Is load classified?</label>
+        <input type="radio" name="classified" value="yes">Yes
+        <input type="radio" name="classified" value="no">No<br />
+    </div>
+
+    <input id="worker_plasticWeight" type="number" class="workerInputs" placeholder="Plastic Weight (tns)" /><br />
+
+    <input id="worker_papersWeight" type="number" class="workerInputs" placeholder="Papers Weight (tns)" /><br />
+
+    <input id="worker_foodWeight" type="number" class="workerInputs" placeholder="Food waste weight (tns)" /><br />
+
+    <input id="worker_glassWeight" type="number" class="workerInputs" placeholder="Glass waste weight (tns)" /><br />
+
+    <input id="worker_gardensWeight" type="number" class="workerInputs" placeholder="Gardens waste weight (tns)" /><br />
+
+    <input id="worker_steelWeight" type="number" class="workerInputs" placeholder="Steel waste weight (tns)" /><br />
+
+    <input id="worker_othersWeight" type="number" class="workerInputs" placeholder="Others waste weight (tns)" /><br />
+
+    <label>Garage Leave time</label><input id="worker_garageLeaveTime" type="datetime-local" class="workerInputs" /><br />
+
+    <label>Benha Leave time</label><input id="worker_benhaLeaveTime" type="datetime-local" class="workerInputs" /><br />
+
+    <label>Landfill arrival time</label><input id="worker_landFillArriveTime" type="datetime-local" class="workerInputs" /><br />
+
+    <input class="workerInputs" id="worker_btn_saveWorkerForm" type="button" value="Save" style="width: 100%;height: 30px;" 
+           data-dojo-attach-event="onclick:_submitWorkerForm"/>
+</div>

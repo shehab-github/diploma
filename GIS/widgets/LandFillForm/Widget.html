@@ -1,0 +1,45 @@
+<div>
+    <div class="workerInputs">
+        <label>Shift:</label>
+        <input type="radio" name="workShift" value="Morning">Morning
+        <input type="radio" name="workShift" value="Evening">Evening
+        <input type="radio" name="workShift" value="Night">Night<br />
+    </div>
+
+    <input class="workerInputs" id="landfill_employeeName" type="text" placeholder="Employee name" /><br />
+    <input class="workerInputs" id="landfill_employeeAge" type="text" placeholder="Employee Age" /><br />
+    <input class="workerInputs" id="landfill_employeePos" type="text" placeholder="Employee position" /><br />
+    <input class="workerInputs" id="landfill_employeeEduLev" type="text" placeholder="Employee Education Level" /><br />
+    <input class="workerInputs" id="landfill_employeeSickness" type="text" placeholder="Employee Sickness" /><br />
+
+    <input class="workerInputs" id="landfill_carOrgLoc" type="text" placeholder="Car Origin Location" />
+    <input class="workerInputs" id="landfill_driverName" type="text" placeholder="Driver name" /><br />
+    <input class="workerInputs" id="landfill_assistantName" type="text" placeholder="Assistant name" /><br />
+
+    <input class="workerInputs" id="landfill_carType" type="text" placeholder="Car type" /><br />
+    <input class="workerInputs" id="landfill_carModle" type="text" placeholder="Car model" /><br />
+    <input class="workerInputs" id="landfill_carPlateNumber" type="text" placeholder="Car plate number" /><br />
+    <input class="workerInputs" id="landfill_carEmptyWeight" type="number" placeholder="Car empty weight in tonns" /><br />
+    <input class="workerInputs" id="landfill_carLoadedWieght" type="number" placeholder="Loaded weight in tonns" /><br />
+    <input class="workerInputs" id="landfill_netWeight" type="number" placeholder="Net weight in tonns" /> <br />
+
+    <div class="workerInputs">
+        <label>Is load classified?</label>
+        <input type="radio" name="classified" value="yes">Yes
+        <input type="radio" name="classified" value="no">No<br />
+    </div>
+
+    <input class="workerInputs" id="landfill_plasticWeight" type="number" placeholder="Plastic Weight (tns)" /><br />
+    <input class="workerInputs" id="landfill_papersWeight" type="number" placeholder="Papers Weight (tns)" /><br />
+    <input class="workerInputs" id="landfill_food" type="number" placeholder="Food waste weight (tns)" /><br />
+    <input class="workerInputs" id="landfill_glass" type="number" placeholder="Glass waste weight (tns)" /><br />
+    <input class="workerInputs" id="landfill_gardens" type="number" placeholder="Gardens waste weight (tns)" /><br />
+    <input class="workerInputs" id="landfill_steel" type="number" placeholder="Steel waste weight (tns)" /><br />
+    <input class="workerInputs" id="landfill_others" type="number" placeholder="Others waste weight (tns)" /><br />
+
+    <label>Landfill arrival time</label><input class="workerInputs" id="landfill_landfillArrivalTime" type="datetime-local" /><br />
+    <label>Landfill Leave time</label><input class="workerInputs" id="landfill_landfillLeaveTime" type="datetime-local" /><br />
+
+    <input class="workerInputs" id="landfill_btn_saveLandFill" type="button" value="Save" style="width: 100%;height: 30px;"
+           data-dojo-attach-event="click:_submitData" />
+</div>
