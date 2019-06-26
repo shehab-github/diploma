@@ -1,0 +1,52 @@
+{
+  "allPlaceholder": "Find road or building",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "layerId": "rep_data_6084",
+      "url": "https://services9.arcgis.com/H90bf29etCdmCWvk/ArcGIS/rest/services/REP_Data/FeatureServer/13",
+      "name": "Roads",
+      "placeholder": "Find road",
+      "searchFields": [
+        "Street_Name_Arabic",
+        "Postal_Code",
+        "ZIP_R",
+        "ZIP_L",
+        "Ctiy_R",
+        "City_L",
+        "L_F_ADD",
+        "L_T_ADD",
+        "R_F_ADD",
+        "R_T_ADD",
+        "Street_Name_English"
+      ],
+      "displayField": "Street_Name_English",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 1000,
+      "type": "query"
+    },
+    {
+      "layerId": "rep_data_5619",
+      "url": "https://services9.arcgis.com/H90bf29etCdmCWvk/arcgis/rest/services/REP_Data/FeatureServer/40",
+      "name": "Buildings",
+      "placeholder": "Find Building",
+      "searchFields": [
+        "Buildings_Number",
+        "City_Name",
+        "PostalCode"
+      ],
+      "displayField": "City_Name",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 1000,
+      "type": "query"
+    }
+  ]
+}
