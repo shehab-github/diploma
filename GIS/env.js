@@ -80,7 +80,7 @@ var
 
   //This version number will be appended to URL to avoid cache.
   //The reason we do not use wabVersion is to avoid force user to change wabVersion when they are customizing app.
-  deployVersion = '4.0';
+  deployVersion = '2.12';
 
 // console.time('before map');
 
